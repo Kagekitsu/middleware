@@ -11,7 +11,7 @@ function logger(req, res, next) {
   next();
 };
 
-app.use(logger)
+app.use(logger);
 
 // app.use((req, res, next) => {
 //   console.log("Reqest method: ", req.method);
